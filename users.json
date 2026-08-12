@@ -1,0 +1,32 @@
+{
+    "admin": {
+        "password": "admin123",
+        "role": "admin"
+    },
+    "Srabonti ree cdi": {
+        "password": "1",
+        "role": "user",
+        "servers": [
+            {
+                "server_id": "37eb46dc",
+                "link": "37eb46dc",
+                "login_url": "/37eb46dc/login",
+                "dashboard_url": "/37eb46dc/home",
+                "full_link": "http://localhost:5000/37eb46dc/home",
+                "type": "python",
+                "ram": "512MB",
+                "disk": "1GB",
+                "status": "stopped",
+                "pid": null,
+                "created": "2026-08-12 15:54:14.077863",
+                "expiry": "2026-09-11 15:54:14.049107",
+                "main_file": "app.py",
+                "requirements_file": "requirements.txt",
+                "cpu_limit": 80,
+                "rate_limit_exceeded": false,
+                "stopped_by_user": true,
+                "started_at": "2026-08-12 15:59:13.499050"
+            }
+        ]
+    }
+}
