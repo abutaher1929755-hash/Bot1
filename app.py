@@ -1106,14 +1106,13 @@ def api_set_startup(server_id):
 # ============================================
 
 if __name__ == '__main__':
-    print("\n" + "=" * 50)
-    print("🚀 JUBAYER HOSTING - FINAL")
-    print("=" * 50)
-    print("📍 Landing: http://localhost:5000")
-    print("📍 Admin: http://localhost:5000/login")
-    print("🔗 API: http://localhost:5000/api/create")
-    print("👤 admin / admin123")
-    print("=" * 50 + "\n")
-    if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
+    
+    print("\n" + "=" * 50)
+    print("🚀 JUBAYER HOSTING - RAILWAY DEPLOY")
+    print("=" * 50)
+    print(f"📍 Running on port: {port}")
+    print("📍 Admin: /login (admin / admin123)")
+    print("=" * 50 + "\n")
+    
     app.run(debug=False, host='0.0.0.0', port=port)
